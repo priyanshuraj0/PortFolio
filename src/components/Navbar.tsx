@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { logo } from "../assets";
 import { navLinksdata } from "../constants";
 
@@ -45,9 +45,9 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                With a focus on crafting seamless web applications, I merge creativity with technical prowess.
+                My passion for machine learning drives me to create intelligent systems.
+                Join me on this journey through innovation, exploring projects that showcase the fusion of technology and imagination.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -75,13 +75,13 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+                  <a href="https://github.com/priyanshuraj0" target="_blank">
                     <span className="bannerIcon">
-                      <FaYoutube />
+                      <FaGithub />
                     </span>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+                    href="https://www.linkedin.com/in/priyanshu-raj1310/"
                     target="_blank"
                   >
                     <span className="bannerIcon">
@@ -89,11 +89,11 @@ const Navbar = () => {
                     </span>
                   </a>
                   <a
-                    href="https://www.facebook.com/Noorlalu143/"
+                    href="https://www.instagram.com/"
                     target="_blank"
                   >
                     <span className="bannerIcon">
-                      <FaFacebookF />
+                      <FaInstagram />
                     </span>
                   </a>
                 </div>
