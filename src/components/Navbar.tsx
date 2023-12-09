@@ -89,7 +89,7 @@ const Navbar = () => {
                     </span>
                   </a>
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/paulite_raj/"
                     target="_blank"
                   >
                     <span className="bannerIcon">

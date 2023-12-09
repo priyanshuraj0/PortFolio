@@ -37,7 +37,7 @@ const ContactLeft = () => {
               <FaLinkedinIn />
             </span>
           </a>
-          <a href="https://www.instagram.com/" target="_blank">
+          <a href="https://www.instagram.com/paulite_raj/" target="_blank">
             <span className="bannerIcon">
               <FaInstagram />
             </span>
